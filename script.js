@@ -25,7 +25,7 @@
    of stock for this project. This object layers that information on top of
    the real data, keyed by real product ids from dummyjson.com/products. */
 const demoOverrides = {
-  1: { onSale: true, salePrice: 89.99 },
+  1: { onSale: true, salePrice: 7.99 },
   4: { inStock: false },
   7: { onSale: true, salePrice: 15.99 },
   14: { inStock: false },
