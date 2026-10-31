@@ -1,4 +1,4 @@
-// [Your Name] - Final (Capstone) Lab Project
+// Ye Sheng - Final (Capstone) Lab Project
 
 /* =========================================================================
    Mini Store — Final (Capstone) Lab Project
