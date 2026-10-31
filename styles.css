@@ -1,4 +1,4 @@
-// Ye Sheng - Final (Capstone) Lab Project
+/* Ye Sheng - Final (Capstone) Lab Project */
 
 /* ===== Reset & base ===== */
 * {
@@ -93,7 +93,6 @@ main {
   min-height: 1.2rem;
 }
 
-/* 加载/错误状态 */
 .status-message.error {
   color: #dc2626;
   font-weight: bold;
@@ -114,7 +113,7 @@ main {
   border: 1px solid #e2e8f0;
   border-radius: 10px;
   padding: 1rem;
-  width: calc(33.333% - 0.84rem);
+  width: 32%;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .product-card:hover {
@@ -125,8 +124,9 @@ main {
 @media (max-width: 700px) {
   .product-card { width: 100%; }
 }
+
 @media (min-width: 701px) and (max-width: 1000px) {
-  .product-card { width: calc(50% - 0.63rem); }
+  .product-card { width: 48%; }
 }
 
 .badge {
