@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Store — Capstone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="brand">Mini Store</h1>
+      <nav>
+        <button id="cart-toggle" class="cart-toggle" aria-controls="cart-panel">
+          Cart (<span id="cart-count">0</span>)
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="controls" aria-label="Filter and sort products">
+      <div class="control-group">
+        <label for="category-filter">Category</label>
+        <select id="category-filter">
+          <option value="all">All categories</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="sort-select">Sort by price</label>
+        <select id="sort-select">
+          <option value="default">Default order</option>
+          <option value="asc">Price: Low to High</option>
+          <option value="desc">Price: High to Low</option>
+        </select>
+      </div>
+    </section>
+
+    <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+
+    <section id="product-grid" class="product-grid" aria-label="Products"></section>
+
+    <aside id="cart-panel" class="cart-panel" aria-label="Shopping cart and checkout">
+      <h2>Your Cart</h2>
+      <ul id="cart-items" class="cart-items"></ul>
+      <p class="cart-total">Total: $<span id="cart-total">0.00</span></p>
+
+      <form id="checkout-form" class="checkout-form" novalidate>
+        <h3>Checkout</h3>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="address">Shipping Address</label>
+        <textarea id="address" name="address" rows="2" required></textarea>
+
+        <button type="submit" id="checkout-btn">Place Order</button>
+        <p id="checkout-message" class="checkout-message" role="status" aria-live="polite"></p>
+      </form>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Capstone Project &mdash; Web Development I</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
