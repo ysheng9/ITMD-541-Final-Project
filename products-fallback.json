@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Bluetooth Earbuds",
+      "price": 59.99,
+      "description": "Compact true-wireless earbuds with 24-hour battery life via the charging case and touch controls for calls and music.",
+      "category": "electronics",
+      "thumbnail": "https://placehold.co/400x400?text=Earbuds"
+    },
+    {
+      "id": 2,
+      "title": "Portable Bluetooth Speaker",
+      "price": 39.99,
+      "description": "Water-resistant speaker with 12 hours of playtime and a built-in microphone for hands-free calls.",
+      "category": "electronics",
+      "thumbnail": "https://placehold.co/400x400?text=Speaker"
+    },
+    {
+      "id": 3,
+      "title": "Classic Cotton T-Shirt",
+      "price": 19.99,
+      "description": "A soft, breathable 100% cotton t-shirt with a relaxed fit, available in multiple colors.",
+      "category": "clothing",
+      "thumbnail": "https://placehold.co/400x400?text=T-Shirt"
+    },
+    {
+      "id": 4,
+      "title": "Slim Fit Jeans",
+      "price": 49.99,
+      "description": "Stretch-denim slim fit jeans designed for everyday comfort and durability.",
+      "category": "clothing",
+      "thumbnail": "https://placehold.co/400x400?text=Jeans"
+    },
+    {
+      "id": 5,
+      "title": "Ceramic Coffee Mug Set",
+      "price": 14.99,
+      "description": "A set of two 12oz ceramic mugs, microwave and dishwasher safe.",
+      "category": "home",
+      "thumbnail": "https://placehold.co/400x400?text=Mug+Set"
+    },
+    {
+      "id": 6,
+      "title": "Fleece Throw Blanket",
+      "price": 24.99,
+      "description": "A lightweight, machine-washable fleece throw blanket, 50x60 inches.",
+      "category": "home",
+      "thumbnail": "https://placehold.co/400x400?text=Blanket"
+    },
+    {
+      "id": 7,
+      "title": "Running Shoes",
+      "price": 89.99,
+      "description": "Lightweight running shoes with breathable mesh uppers and cushioned soles for daily training.",
+      "category": "clothing",
+      "thumbnail": "https://placehold.co/400x400?text=Shoes"
+    },
+    {
+      "id": 8,
+      "title": "LED Desk Lamp",
+      "price": 22.99,
+      "description": "An adjustable LED desk lamp with three brightness settings and a USB charging port.",
+      "category": "home",
+      "thumbnail": "https://placehold.co/400x400?text=Desk+Lamp"
+    }
+  ],
+  "total": 8,
+  "skip": 0,
+  "limit": 8
+}
